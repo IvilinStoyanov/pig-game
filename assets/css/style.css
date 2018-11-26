@@ -186,3 +186,19 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+.rules {
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #79b6b5, #3c8091);
+    height: 2rem;
+
+    margin-left: 1rem;
+    max-width: 6rem; 
+} .rules a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.6rem;
+}    .rules:hover {
+        background-image: linear-gradient(to right bottom, #3c8091, #79b6b5); }
+    .rules:focus {
+        outline: none; }
